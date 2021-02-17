@@ -103,7 +103,7 @@ class YtSearch:
 
 
 async def main(query="electromagnetism"):
-    yts = YtSearch(query, cache=True)
+    yts = YtSearch(query, cache=False)
     await yts.search()
 
 
